@@ -1,1 +1,8 @@
 @charset "UTF-8";
+/* Palheta(paleta) de cores */
+:root{
+    --cor-fundo: #590E07;
+    --cor-primaria: #BF4F45;
+    --cor-clara: #FA9083;
+    --cor-secundaria: #D7D9D8;
+}
