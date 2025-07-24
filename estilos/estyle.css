@@ -59,3 +59,50 @@ div#formulario > h1{
 div#formulario > p{
     font-size: 0.8em;
 }
+div.campo{
+    background-color: var(--cor-secundaria);
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+ div.campo > label{
+    display: none;
+    
+ }
+
+
+form > input[type="submit"]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor-primaria);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+form > input[type="submit"]:hover{
+    background-color: var(--cor-clara);
+    cursor: pointer;
+
+}
+
+form > a.botao{
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor-secundaria);
+    border: solid 1px var(--cor-clara);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 5px;
+    text-decoration: none;
+    color : var(--cor-fundo);
+}
+
+form > a.botao:hover{
+    background-color: var(--cor-clara);
+}
