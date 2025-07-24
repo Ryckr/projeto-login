@@ -25,7 +25,6 @@
     div#formulario{
         width: 60%;
         float: right;
-        display: flex;
     }
 }
 
@@ -39,12 +38,19 @@
     div#imagem{
         background: var(--cor-fundo) url(../imagens/login.jpg) no-repeat center center;
         background-size: cover;
-        float : left;
+        float : right;
         width: 50%;
         height: 100%;
     }
     div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
+    div#formulario > h1{
+        font-size: 2em;
+    }
+    div#formulario > p{
+    font-size: 1.2em;
+}
+    
 }
