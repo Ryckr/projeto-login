@@ -6,34 +6,44 @@
     --cor-secundaria: #D7D9D8;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /*Configurações para Tabletes*/
     body{
         background-image: linear-gradient(to top, var(--cor-fundo), var(--cor-primaria));
     }
     section#login {
        width: 80vw;
+       height: 300px;
       
     }
 
     div#imagem{
-        background: var(--cor-primaria) url(../imagens/login-tg.jpg) no-repeat center center;
-        background-size: cover;  
-        float: left;   
-        width: 40%;
-        height: 100%;
+    background: var(--cor-primaria) url(../imagens/login.jpg) no-repeat center center;
+    background-size: cover;  
+    float: left;   
+    width: 40%;
+    height: 100%;
     }
     div#formulario{
         width: 60%;
         float: right;
     }
+    div.campo > input{
+    background-color: var(--cor-secundaria); ;
+    border: none;
+    height: 100%;
+    border-radius: 8px;
+    padding:5px;
+    width: calc(100% - 50px);
+}
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px){/*Configurações para Desktop*/
     body{
     background-image: linear-gradient(to top, var(--cor-fundo), var(--cor-primaria));
     }
     section#login{
         width: 992px;
+        height: 380px;
     }
     div#imagem{
         background: var(--cor-fundo) url(../imagens/login.jpg) no-repeat center center;
@@ -50,7 +60,8 @@
         font-size: 2em;
     }
     div#formulario > p{
-    font-size: 1.2em;
+    margin: 20px 0px;
+    font-size: 1em;
 }
     
 }
