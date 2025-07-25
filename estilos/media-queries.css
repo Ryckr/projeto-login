@@ -63,5 +63,15 @@
     margin: 20px 0px;
     font-size: 1em;
 }
+div.campo > input{
+    background-color: var(--cor-secundaria); ;
+    border: none;
+    height: 100%;
+    border-radius: 8px;
+    padding:5px;
+   
+    width: calc(100% - 50px);
+    transform: translateY(-11px);
+}
     
 }
